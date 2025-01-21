@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+   .header{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+   }
+  #navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
+  #img1{
+    float: left;
+  }
+  #navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  #navbar{
+  
+    background-color: white;
+    
+    
+    
+  }
+  #search {
+    float: right;
+    display: block;
+    padding: 20px 25px;
+    margin-top: 30px;
+  }
+  .text{
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  h2{
+    text-align: center;
+  }
+  
+
+   .container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    border: none;
+   }
+   .card1 {
+    background-color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+  
+   }
+   .card1 img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   }
+    
+  
+   .card1 button{
+    background-color: #2762a2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, transform 0.2s;
+    width:  100% !important;
+margin: 15px 0 !important;
+
+
+   }
+   .section{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+   }
+   .section img{
+    width: 500px;
+    height: 200px;
+   }
+   .video-sec{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+   }
+   .health{
+    text-align: center;
+   }
+   .issue{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+   }
+   .issue img{
+    width: 350px;
+    height: 300px;
+   }
+   .articles{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+   }
+   .article {
+    max-width: 600px;
+    text-align: center;
+    background-color: rgb(242, 246, 248);
+   }
+   .article img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   }
+   .reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin-left: 10%;
+    margin-right: 10%;
+
+  
+   }
+   
+   .products{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+   }
+   .product img{
+    width: 300px;
+    height: 200px;
+   }
+   #footer {
+    display: flex;
+
+    background-color: whitesmoke;
+    color: rgb(63, 62, 62);
+}
